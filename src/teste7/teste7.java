@@ -35,6 +35,5 @@ public class teste7{
 		troco = valor - pago;
 		
 		System.out.printf("Troco do cliente: %.2f", troco);
-		
 	}
 }
