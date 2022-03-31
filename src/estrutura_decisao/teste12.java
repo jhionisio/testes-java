@@ -1,8 +1,8 @@
-package teste1;
+package estrutura_decisao;
 
 import java.util.Scanner;
 
-public class teste11 {
+public class teste12 {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class teste11 {
 			System.out.printf("Que terreno grande, hein amigão.");
 		}
 		else {
-			System.out.printf("A area é: %f", area);
+			System.out.printf("Que terreno pequenininho, hein amigão.");
 		}
 	}
 

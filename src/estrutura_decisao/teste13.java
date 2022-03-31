@@ -1,4 +1,4 @@
-package teste1;
+package estrutura_decisao;
 
 import java.util.Scanner;
 
