@@ -1,8 +1,8 @@
-package teste1;
+package estrutura_decisao;
 
 import java.util.Scanner;
 
-public class teste10 {
+public class teste8 {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
@@ -14,14 +14,12 @@ public class teste10 {
 		
 		System.out.printf("Digite o valor: ");
 		menor = ler.nextInt();
-		if(maior == menor) {
-			System.out.printf("os números são iguais");
-		} else {
-			if(maior > menor) {
-				System.out.printf("O maior é: %.2f", maior);
-			} else {
-				System.out.printf("O maior é: %.2f", menor);
-			}
+		
+		if(maior>menor) {
+			System.out.printf("O maior é: %.2f", maior);
+		}
+		else {
+			System.out.printf("O maior é: %.2f", menor);
 		}
 	}
 }

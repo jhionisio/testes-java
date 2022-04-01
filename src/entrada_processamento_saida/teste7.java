@@ -1,4 +1,4 @@
-package teste1;
+package entrada_processamento_saida;
 
 import java.util.Scanner;
 
